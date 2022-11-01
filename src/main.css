@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  background: #1f1f1f;
+  color: aquamarine;
+}
+.heading {
+  font-family: 'Pacifico', cursive;
+  margin: 35px auto 20px;
+}
+hr {
+  border-top: 2px solid aquamarine;
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+.container {
+  font-family: Tahoma;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  min-width: 20rem;
+}
+.container .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: blueviolet;
+  color: white;
+}
+.container .main .row1 #amount {
+  height: 2rem;
+  font-size: 1rem;
+  margin: 1.2rem 0.2rem;
+  border-radius: 0.3rem;
+  border: 0.3rem grey;
+}
+.container .main .row2 #firstTypeSelect {
+  width: 80%;
+  height: 2.3rem;
+  font-size: 1rem;
+  margin: 1.2rem 0.2rem;
+  border-radius: 1.3rem;
+}
+.container .main .row3 #secondTypeSelect {
+  width: 80%;
+  height: 2.3rem;
+  font-size: 1rem;
+  margin: 1.2rem 0.2rem;
+  border-radius: 1.3rem;
+}
+.container .main .row4 #convertBtn {
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 9rem;
+  border: none;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  background-color: #6723a7;
+}
+.container .main .row4 #convertBtn:hover {
+  background-color: #7627c0;
+}
+.container .main .row4 #resetBtn {
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 10rem;
+  border: none;
+  margin-top: 2rem;
+  background-color: #6723a7;
+}
+.container .main .row4 #resetBtn:hover {
+  background-color: #7627c0;
+}
+.container .main .row1,
+.container .main .row2,
+.container .main .row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+.container #finalAmount {
+  font-family: 'Lobster', cursive;
+  margin: 50px auto;
+}
+.container #finalAmount h2 {
+  font-size: 3rem;
+}
+.container #finalValue {
+  font-family: 'Amiri', serif;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  background: #1f1f1f;
+  color: aquamarine;
+}
+
+.heading {
+  font-family: 'Pacifico', cursive;
+  margin: 35px auto 20px;
+}
+
+hr {
+  border-top: 2px solid aquamarine;
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  font-family: Tahoma;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  min-width: 20rem;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+
+
+    .row1 {
+      #amount{
+        height: 2rem;
+        font-size: 1rem;
+        margin: 1.2rem 0.2rem;
+        border-radius: 0.3rem;
+        border: 0.3rem grey;
+      }
+    }
+    .row2 {
+      #firstTypeSelect{
+        width: 80%;
+        height: 2.3rem;
+        font-size: 1rem;
+        margin: 1.2rem 0.2rem;
+        border-radius: 1.3rem;
+      }
+    }
+    .row3 {
+      #secondTypeSelect{
+        width: 80%;
+        height: 2.3rem;
+        font-size: 1rem;
+        margin: 1.2rem 0.2rem;
+        border-radius: 1.3rem;
+      }
+    }
+    .row4 {
+       #convertBtn
+       {
+         font-size: 24px;
+         padding: 1rem;
+         border-radius: 1rem;
+         width: 9rem;
+         border: none;
+         margin-top: 2rem;
+         margin-right: 2rem;
+         background-color: rgb(103, 35, 167);
+         &:hover {
+           background-color: rgb(118, 39, 192);
+         }
+       }
+      #resetBtn
+      {
+        font-size: 24px;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 10rem;
+        border: none;
+        margin-top: 2rem;
+        background-color: rgb(103, 35, 167);
+        &:hover {
+          background-color: rgb(118, 39, 192);
+        }
+      }
+    }
+    .row1,
+    .row2,
+    .row3
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+      margin: 1rem;
+    }
+
+  }
+
+  #finalAmount {
+    font-family: 'Lobster', cursive;
+    margin: 50px auto;
+  }
+
+  #finalAmount h2 {
+    font-size: 3rem;
+  }
+
+  #finalValue {
+    font-family: 'Amiri', serif;
+  }
+}

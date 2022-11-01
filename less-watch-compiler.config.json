@@ -1,0 +1,5 @@
+{
+    "watchFolder": "./wwwroot/less",
+    "outputFolder": "./src",
+    "mainFile": "main.less"
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../src/main.css" rel="stylesheet"/>
+    <script src="../src/index.js" type="text/javascript"></script>
+</head>
+
+<h1 class="heading">Currency Converter</h1>
+<hr>
+<div class="container">
+
+    <div class="main">
+
+        <div class="row1">
+            <div>Amount to Convert</div>
+            <input type="number" placeholder="0.00" id="amount">
+        </div>
+        <div class="row2">
+            <div>From</div>
+            <select id="firstTypeSelect"> </select>
+        </div>
+        <div class="row3">
+            <div>To</div>
+            <select id="secondTypeSelect"></select>
+        </div>
+
+        <div class="row4">
+            <input id='convertBtn' type="button" value="Convert">
+            <input id='resetBtn' type="button" value="Reset">
+        </div>
+    </div>
+
+    <div id="finalAmount" class="text-center">
+        <h2>Converted Amount :
+            <span id="finalValue" style="color: red;"></span>
+        </h2>
+    </div>
+</div>
+</html>
